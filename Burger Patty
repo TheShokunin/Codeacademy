@@ -1,0 +1,11 @@
+// Define the 'makeSandwich()' function
+function makeSandwich(topping1, topping2) {
+  sandwich = 'burger patty' + ','
+  sandwich += topping2 + ','
+  sandwich += topping2 + ','
+  sandwich += 'peanut butter'
+  return sandwich
+}
+
+// Call the function and store the returned value in 'result'
+result = makeSandwich('peanut butter', 'jelly')
